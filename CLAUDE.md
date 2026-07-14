@@ -15,6 +15,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working in this
 - コミット前に `git status` / `git diff` で変更内容を確認し、意図しないファイル（`.env` や認証情報など）が含まれていないことを確認する。
 - コミットはユーザーの許可なく `--no-verify` などでフックをスキップしない。
 
+## デプロイ情報
+
+- 本番URL：https://プロジェクト名.vercel.app
+- Supabaseプロジェクト名：realestate-app
+
 ## 補足
 
-- 現時点でこのディレクトリはGitリポジトリとして初期化されていません。プッシュ運用を始めるには、まず `git init` とGitHubリモートの設定が必要です。
+- GitHubリポジトリ：https://github.com/ryojisawada/realestate-app.git（`main`ブランチ）
