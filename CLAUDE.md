@@ -17,7 +17,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working in this
 
 ## デプロイ情報
 
-- 本番URL：https://プロジェクト名.vercel.app
+- 本番URL：https://realestate-app-lime-eight.vercel.app
 - Supabaseプロジェクト名：realestate-app
 
 ## 補足
