@@ -26,7 +26,12 @@
   color: var(--text);
 }
 
-.logout-button {
+.property-header-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.property-header-actions button {
   padding: 8px 16px;
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -34,6 +39,18 @@
   color: var(--text-h);
   font-size: 14px;
   cursor: pointer;
+}
+
+.property-form-panel {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.property-form-panel h2 {
+  text-align: left;
+  margin-bottom: 16px;
 }
 
 .property-grid {
@@ -61,4 +78,25 @@
 
 .property-area {
   color: var(--text);
+}
+
+.property-layout {
+  color: var(--text);
+  margin-top: 4px;
+}
+
+.property-card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.property-card-actions button {
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text-h);
+  font-size: 13px;
+  cursor: pointer;
 }
